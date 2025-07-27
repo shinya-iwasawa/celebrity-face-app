@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+sdist/
+var/
+
+# PyInstaller
+#  Usually these files are written by a CI server
+#  and may contain sensitive info.
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyderworkspace
+
+# VSCode
+.vscode/
+
+# node_modules
+web/node_modules
+
+# build
+web/build
