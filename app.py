@@ -15,7 +15,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/uploads'
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
-MODEL_NAME = "VGG-Face"
+MODEL_NAME = "SFace"
 EMBEDDING_FILE = "celebrity_embeddings.pkl" # ローカルにダウンロードして使う
 
 # --- Google Driveからファイルをダウンロードする関数 ---
